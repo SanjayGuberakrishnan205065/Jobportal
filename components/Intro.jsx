@@ -9,7 +9,7 @@ export default function Intro() {
   const [search, setSearch] = useState('');
   const jobData = useSelector(state => state.Job.JobData);
   const [filterJobs, setFilteredJobs] = useState([])
-  const [doneSearch , setDoneSearch] = useState(false)
+  const [doneSearch, setDoneSearch] = useState(false)
 
 
 
